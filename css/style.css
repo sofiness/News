@@ -49,6 +49,16 @@ article img {
     object-fit: cover;
 }
 
+.news:nth-child(even) {
+    background-color: rgb(133, 91, 133);
+}
+
+
+.newars::before {
+   content: "New";
+   color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 footer {
     padding-top: 20px;
     padding-bottom: 60px;
